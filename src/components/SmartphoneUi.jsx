@@ -2,6 +2,7 @@ import MessageIn from "./MessageIn";
 import MessageOut from "./MessageOut";
 import PictureMessage from "./PictureMessage";
 import PricingTag from "./PricingTag";
+import TypeMessage from "./TypeMessage";
 
 const SmartphoneUi = () => {
   return (
@@ -36,6 +37,7 @@ const SmartphoneUi = () => {
         />
         <PricingTag duration="30 minute walk" price="29" />
         <PricingTag duration="1 hour walk" price="49" />
+        <TypeMessage />
       </div>
     </div>
   );
