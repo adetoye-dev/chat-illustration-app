@@ -3,7 +3,7 @@ import MessageOut from "./MessageOut";
 
 const SmartphoneUi = () => {
   return (
-    <div className="relative w-72 h-96 rounded-3xl border-8 border-white bg-slate-300 overflow-hidden">
+    <div className="relative w-72 h-auto rounded-3xl border-8 border-white bg-slate-300 overflow-hidden">
       <div className="phone-top absolute w-2/4 mx-auto h-6 bg-white -top-1 object-center left-1/4 rounded-b-xl"></div>
       <div className="chat-header flex bg-green-800 h-20 p-3 items-end rounded-b-lg">
         <div className="header-content flex gap-3 items-center grow">
