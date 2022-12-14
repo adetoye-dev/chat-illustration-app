@@ -1,5 +1,6 @@
 import MessageIn from "./MessageIn";
 import MessageOut from "./MessageOut";
+import PictureMessage from "./PictureMessage";
 
 const SmartphoneUi = () => {
   return (
@@ -25,9 +26,13 @@ const SmartphoneUi = () => {
       <div className="chats p-3">
         <MessageIn text="That sounds great. I’d be happy with that." />
         <MessageIn text="Could you send over some pictures of your dog, please?" />
+        <PictureMessage />
         <MessageOut text="Here are a few pictures. She’s a happy girl!" />
         <MessageOut text="Can you make it?" />
-        <MessageIn text="She looks so happy! The time we discussed works. How long shall I take her out for?" />
+        <MessageIn
+          text="She looks so happy! The time we discussed works. How long shall I take her out for?"
+          customStyle="mt-5"
+        />
       </div>
     </div>
   );
