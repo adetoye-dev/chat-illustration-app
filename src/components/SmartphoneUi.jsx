@@ -7,7 +7,7 @@ import TypeMessage from "./TypeMessage";
 
 const SmartphoneUi = () => {
   return (
-    <div className="relative w-72 h-auto rounded-3xl border-8 border-white bg-slate-300 overflow-hidden">
+    <div className="relative w-72 h-auto rounded-3xl border-8 border-white bg-light-grayish-violet overflow-hidden">
       <div className="phone-top absolute w-2/4 mx-auto h-5 bg-white -top-1 object-center left-1/4 rounded-b-xl"></div>
       <Header />
       <div className="chats p-2">
