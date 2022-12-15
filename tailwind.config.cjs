@@ -8,6 +8,7 @@ module.exports = {
       current: "currentColor",
       white: "hsl(0, 0%, 100%)",
       "pale-violet": "hsl(276, 100%, 81%)",
+      "very-pale-violet": "hsl(276, 100%, 91%)",
       "moderate-violet": "hsl(276, 55%, 52%)",
       "desaturated-dark-violet": "hsl(271, 15%, 43%)",
       "grayish-blue": "hsl(206, 6%, 79%)",
